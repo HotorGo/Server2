@@ -5,7 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-<h1> Привет кек  ${user}!</h1>
+<h1> Привет, ${user}</h1>
+и его друзья
+<#list friends as f>
+<p>${f}</p>
+</#list>
 <a href="/"> На главную </a>
 </body>
 </html>
